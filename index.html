@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Suhu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Konverter Suhu V 1.0</h2>
+    <p>
+        <label>Celsius</label>
+        <input id="inputCelsius" type="number" placeholder="Masukan Suhu" 
+        oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+    </p>
+    <p>Hasil: <span id="output"> </span> <label>Farenheit</label> </p>
+    <script src="script.js"></script> 
+    </div>
+</body>
+</html>
