@@ -1,0 +1,26 @@
+css
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #698f98;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+}
+
